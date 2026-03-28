@@ -1,10 +1,10 @@
-// Classe responsável por demonstrar o uso das estruturas de repetição while e do-while
+// Classe responsável por demonstrar o uso das estruturas de repetição (while, do-while e for)
 public class While {
 
     // Método principal - ponto inicial do programa
     public static void main(String[] args) {
 
-        // Variável que controla o número de repetições
+        // Variável que controla o número de repetições (usada nos exemplos comentados)
         int contador = 0;
 
 //        // Estrutura while:
@@ -20,15 +20,23 @@ public class While {
 
         // Estrutura do-while:
         // Executa o bloco pelo menos uma vez, mesmo que a condição seja falsa
-        do {
+//        do {
+//
+//            // Exibe o valor atual do contador
+//            System.out.println("Contador (do-while): " + contador);
+//
+//            // Incrementa o contador em 1 a cada repetição
+//            contador++;
+//
+//        // Continua repetindo enquanto o contador for menor ou igual a 5
+//        } while (contador <= 5);
+
+        // Estrutura for:
+        // Ideal quando sabemos exatamente quantas vezes o loop será executado
+        for (int cont = 0; cont <= 5; cont++) {
 
             // Exibe o valor atual do contador
-            System.out.println("Contador (do-while): " + contador);
-
-            // Incrementa o contador em 1 a cada repetição
-            contador++;
-
-            // Continua repetindo enquanto o contador for menor ou igual a 5
-        } while (contador <= 5);
+            System.out.println("Contador (for): " + cont);
+        }
     }
 }
