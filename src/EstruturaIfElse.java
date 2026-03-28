@@ -45,9 +45,7 @@ public class EstruturaIfElse {
 
         // Operador ternário:
         // Forma reduzida de escrever um if/else simples
-        String mensagem = temDinheiro
-                ? "Peça um iFood."
-                : "Coma o que tem em casa.";
+        String mensagem = temDinheiro ? "Peça um iFood." : "Coma o que tem em casa.";
 
         // Exibe o resultado do operador ternário
         System.out.println(mensagem);
